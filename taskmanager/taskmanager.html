@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Task Manager - TaskMaster</title>
+    <link rel="stylesheet" href="taskmanager.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Your Tasks</h1>
+      <form id="task-form">
+        <input type="text" id="task-title" placeholder="Task Title" required />
+        <textarea id="task-desc" placeholder="Task Description"></textarea>
+        <input type="date" id="task-deadline" />
+        <select id="task-priority">
+          <option value="low">Low</option>
+          <option value="medium">Medium</option>
+          <option value="high">High</option>
+        </select>
+        <button type="submit">Add Task</button>
+      </form>
+
+      <input type="text" id="search-bar" placeholder="Search tasks..." />
+      <div id="tasks"></div>
+    </div>
+
+    <script src="taskmanager.js"></script>
+  </body>
+</html>

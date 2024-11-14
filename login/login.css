@@ -1,0 +1,33 @@
+/* Reuse the CSS from register.css for consistency */
+.container {
+  max-width: 400px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+form input,
+form button {
+  width: 100%;
+  padding: 0.75rem;
+  margin-top: 0.5rem;
+}
+
+button {
+  background-color: #0056b3;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
